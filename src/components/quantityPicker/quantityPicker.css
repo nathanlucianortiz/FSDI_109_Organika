@@ -1,0 +1,8 @@
+.qntPicker button {
+    margin: 5px 10px;
+}
+
+.qntPicker label {
+    font-weight: bold;
+    color: #333;
+}
