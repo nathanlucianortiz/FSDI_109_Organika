@@ -8,7 +8,7 @@ class About extends Component {
   render() {
     return (
       <div className="jumbotron">
-        <h1 className="display-4">Hello, world!</h1>
+        <h1 className="display-4">Nate's a fucking badass</h1>
         <p className="lead">
           This is a simple hero unit, a simple jumbotron-style component for
           calling extra attention to featured content or information.
