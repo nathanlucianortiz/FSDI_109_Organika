@@ -44,15 +44,9 @@ class Navbar extends Component {
           </ul>
 
           <form className="form-inline my-2 my-lg-0">
-            <input
-              className="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            ></input>
-            <button type="button" className="btn btn-primary my-2 my-sm-0">
-              Search
-            </button>
+            <Link className="btn btn-outline-warning my-2 my-sm-0" to="/cart">
+              <i className="fa fa-shopping-cart">View Cart</i>
+            </Link>
           </form>
         </div>
       </nav>

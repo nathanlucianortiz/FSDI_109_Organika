@@ -8,15 +8,16 @@ class About extends Component {
   render() {
     return (
       <div className="jumbotron">
-        <h1 className="display-4">Nate's a fucking badass</h1>
+        <h1 className="display-4">Mission Statement</h1>
         <p className="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          All of our products are organic and free of harmful pesticides or
+          hormones. We pride ourselves in providing a liveable wage and full
+          medical care to all our employees.
         </p>
         <hr className="my-4"></hr>
         <p>
-          It uses utility classNamees for typography and spacing to space
-          content out within the larger container.
+          If you would like to join our team, please email us your resume and
+          list of references. We look forward to hearing from you.
         </p>
 
         {this.getEmailText()}
@@ -47,7 +48,7 @@ class About extends Component {
         </h6>
       );
     } else {
-      return <h6>Click on the button to reveal contact info</h6>;
+      return <h6>Click on the button for our contact information!</h6>;
     }
   };
 }
