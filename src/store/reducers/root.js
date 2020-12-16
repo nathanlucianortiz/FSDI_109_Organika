@@ -1,6 +1,6 @@
-const { combineReducers } = require("redux");
-const { default: cartCounterReducer } = require("./cartCounter");
-const { default: cartProductReducer } = require("./cartProduct");
+import { combineReducers } from "redux";
+import cartCounterReducer from "./cartCounter";
+import cartProductReducer from "./cartProduct";
 
 // Combine all the reducers into a single one
 // and register that one with the store
