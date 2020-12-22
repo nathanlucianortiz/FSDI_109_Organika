@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ProductInCart from "./../productInCart/productInCart";
+import "./cart.css";
 
 class Cart extends Component {
   state = {};
@@ -8,8 +9,10 @@ class Cart extends Component {
     return (
       <div>
         <h2>Shopping Cart</h2>
-        <hr></hr>
-        <h6>You have {this.props.count} items in your cart</h6>
+        <div className="cart-container">
+          <hr></hr>
+          <h6>You have {this.props.count} items in your cart</h6>
+        </div>
 
         <div className="cart-products">
           {this.props.cart.map((p) => (

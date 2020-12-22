@@ -45,7 +45,9 @@ class Navbar extends Component {
 
           <form className="form-inline my-2 my-lg-0">
             <Link className="btn btn-outline-warning my-2 my-sm-0" to="/cart">
-              <i className="fa fa-shopping-cart">View Cart</i>
+              <i className="fa fa-shopping-cart">
+                <p>View Cart</p>
+              </i>
             </Link>
           </form>
         </div>
